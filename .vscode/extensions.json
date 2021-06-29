@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "littlefoxteam.vscode-python-test-adapter",
+        "kevinrose.vsc-python-indent",
+        "coenraads.bracket-pair-colorizer-2",
+        "ms-azuretools.vscode-docker",
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "github.vscode-pull-request-github",
+        "magicstack.magicpython",
+        "rangav.vscode-thunder-client",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
