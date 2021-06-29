@@ -10,10 +10,8 @@ router = APIRouter(
 )
 
 
-
-
-@router.post('/')
-def cadastrar_usuarios(usuario: UsuarioModel):
+@router.post('/', response_model=UsuarioModel)
+def cadastrar_usuario(usuario: UsuarioModel):
     response = cadastrarUsuarioService.cadastrarUsuario(usuario)
     return response
 

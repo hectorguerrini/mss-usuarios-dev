@@ -11,4 +11,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get('/')
+async def root():
+    return {'message': 'Hello :)'}
 app.include_router(usuarioController)
