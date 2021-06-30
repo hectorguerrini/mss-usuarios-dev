@@ -13,5 +13,5 @@ app.add_middleware(
 
 @app.get('/')
 async def root():
-    return {'message': 'Hello :)'}
+    return {'message': 'Hello :) Container Docker'}
 app.include_router(usuarioController)

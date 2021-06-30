@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+    usuarios:
+        build:
+            context: .
+        ports:
+            - 80:80
+        volumes:
+            - './:/app'
